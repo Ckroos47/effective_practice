@@ -28,7 +28,7 @@ class Animal{
 
         public Builder(double high,double weight){
             this.high = high;
-            this.weight = weigeefht;
+            this.weight = weight;
         }
 
         public Builder name(String val){
