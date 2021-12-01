@@ -6,7 +6,7 @@ package practice;
  * @email: xyisbenben@aliyun.com
  * @date: 2021/11/25 2:19 下午
  */
-public class Practice3 {
+public class Practice03 {
     public static void main(String[] args) {
         SingleObject singleObject = SingleObject.getInstance();
         singleObject.showMessage();
@@ -179,6 +179,8 @@ class Singleton5{
  * 这种方式是 Effective Java 作者 Josh Bloch 提倡的方式，它不仅能避免多线程同步问题，而且还自动支持序列化机制，
  * 防止反序列化重新创建新的对象，绝对防止多次实例化。不过，由于 JDK1.5 之后才加入 enum 特性，用这种方式写不免让人感觉生疏，在实际工作中，也很少用。
  * 不能通过 reflection attack 来调用私有构造方法。
+ *
+ * 注意：如果单例必须继承Enum以外的父类（尽管可以声明一个Enum来实现接口），那么就不能使用这种方法
  */
 enum Singleton6{
     INSTANCE;

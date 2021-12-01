@@ -14,7 +14,7 @@ import java.sql.Date;
  * @email: xyisbenben@aliyun.com
  * @date: 2021/11/22 11:28 AM
  */
-public class Practice1 {
+public class Practice01 {
     public static void main(String[] args) {
         System.out.println(Demo.toStr(100L));
         System.out.println(Demo.toStr(10));
