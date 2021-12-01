@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 /**
  * @description: 避免创建不必要的对象
- * 未能在需要的情况下防 御性复制会导致潜在的错误和安全漏洞;而不必要地创建对象只会影响程序的风格和性能。
+ * 未能在需要的情况下防御性复制会导致潜在的错误和安全漏洞;而不必要地创建对象只会影响程序的风格和性能。
  * @author: chenmo
  * @email: xyisbenben@aliyun.com
  * @date: 2021/12/1 10:51 上午
