@@ -1,4 +1,4 @@
-《Effective JAVA ,3rd Edition》 practice demos index
+《Effective JAVA ,3rd Edition》 index
 
 
 1. 使用静态工厂方法替代构造方法
