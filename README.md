@@ -10,4 +10,5 @@
 7. 消除过期的对象引用
 8. 避免使用 Finalizer 和 Cleaner 机制
 9. 使用 try-with-resources 语句替代 try-finally 语句
+10.重写equals方法时遵守通用约定
 
