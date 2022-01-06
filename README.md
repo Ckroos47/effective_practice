@@ -8,7 +8,8 @@
 5. 使用依赖注入取代硬连接资源（hardwiring resources)
 6. 避免创建不必要的对象
 7. 消除过期的对象引用
-8. 避免使用 Finalizer 和 Cleaner 机制
-9. 使用 try-with-resources 语句替代 try-finally 语句
-10.重写equals方法时遵守通用约定
-
+8. 避免使用 Finalizer 和 Cleaner 机制  
+9. 使用 try-with-resources 语句替代 try-finally 语句  
+10.重写equals方法时遵守通用约定  
+11.重写 equals 方法时同时也要重写 hashcode 方法  
+12.始终重写 toString 方法
